@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE CONTACTO INSTAPET</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-form">
+        <h1>Formulario</h1>
+        <p>La primera red social de Mascotas</p>
+        <form action="https://formspree.io/f/myyoqljb" method="post">
+            <label for="nombre">Nombre de Mascota</label>
+            <br>
+            <input type="text" name="nombre" placeholder="ingrese nombre" id="nombre" required="Ingrese su nombre">
+            <br>
+            <label>Edad de tu mascota: </label> <br>
+            <input type="number" name="edad" placeholder="ingrese edad" id="edad" required="Ingrese la edad de su mascota">
+            <br>
+            <label for="email">Ingrese su correo electronico: </label><br>
+            <input type="email" name="email" placeholder="ingrese correo electronico" id="email" required="ingrese su correo">
+            <br>
+            <label for="contraseña">Ingrese su contraseña: </label><br>
+            <input type="password" name="comtraseña" id="contraseña" placeholder="contraseña" required="Ingrese su contraseña"><br>
+            <br>
+            <br>
+            <h3>Seleccione su genero</h3>
+            <label for="sexo">Hembra: </label>
+            <input type="radio" name="sexo" value="Macho">
+            <label for="sexo">Macho: </label>
+            <input type="radio" name="sexo" value="Hembra">
+            <br>
+            <br>
+            <h3>Tipo de Mascota</h3>
+            <select name="tipoMascota" id="tipoMascota">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="Ave">Aves</option>
+                <option value="roedores">Roedores</option>
+            </select>
+            <br>
+            <br>
+            <label for="comentarios">Cuentanos como es tu mascota: </label><br>
+            <textarea name="comentarios" id="coment-textarea" cols="40" rows="10" placeholder="Dejanos tus comentarios"></textarea>
+            <br>
+            <br>
+            <label for="acepta">Acepta las Bases y condiciones</label>
+            <input type="checkbox" name="acepta" value="acepta">
+            <br>
+            <br>
+            <input type="submit" name="enviar" id="boton">
+        </form>
+    </div>    
+
+</body>
+</html>

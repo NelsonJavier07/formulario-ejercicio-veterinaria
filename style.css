@@ -1,0 +1,59 @@
+body{
+    font-family: 'Mukta', sans-serif;
+    background-image: url(img/fondo_jungla.jpg);
+    color: white;
+}
+.container-form {
+    background-color:rgba(230, 126, 34,0.7);
+    margin: auto;
+    text-align: center;
+    height: 60rem;
+    width: 30rem;
+    border-radius: 3rem;
+    margin-top: 10rem;
+    box-sizing: border-box;
+    /*box-shadow: 0.3rem 0.5rem 0.8rem rgba(52, 73, 94,1.0);*/
+}
+
+label {
+    text-transform: uppercase;
+}
+
+#nombre {
+    width: 25rem;
+    height: 1.5rem;
+}
+
+#edad {
+    width: 25rem;
+    height: 1.5rem;
+    
+}
+
+#email {
+    width: 25rem;
+    height: 1.5rem;
+}
+
+#contraseña {
+    width: 25rem;
+    height: 1.5rem;
+}
+
+#boton {
+    width: 25rem;
+    height: 1.5rem;
+    background-color: rgba(211, 84, 0,1.0);
+    font-size: large;
+    color: white;
+    border: none;
+}
+
+.coment-textarea {
+    border-radius: 8px;
+    color: tomato;
+}
+
+#boton:hover{
+    box-shadow: 1px 1.5px 5px rgba(52, 73, 94,1.0);
+}
